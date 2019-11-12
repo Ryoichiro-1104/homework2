@@ -1,0 +1,230 @@
+.header h1{
+    text-align:center;
+    z-index: 2;
+}
+body {
+    background-color:#a9d7d1;
+
+}
+.contents {
+    background-color:white;
+    margin:0 60px 10px 60px;
+    padding:20px;
+    z-index: 2;
+}
+.profile{
+    text-align: center;
+}
+.name{
+    display: inline-block;
+    text-align: right;
+    width: 40%;
+    margin-right: 20px;;
+}
+.name-box{
+    display: inline-block;
+    text-align: left;
+    width: 40%;
+}
+.email{
+    display: inline-block;
+    text-align: right;
+    width: 40%;
+    margin-right: 20px;
+}
+.email-box{
+    display: inline-block;
+    text-align: left;
+    width: 40%;
+}
+.age{
+    display: inline-block;
+    text-align: right;
+    width: 40%;
+    margin-right: 20px;
+}
+.age-box{
+    display: inline-block;
+    text-align: left;
+    width: 40%;
+}
+.job {
+    margin:10px 0;
+    display: block;
+    text-align: center;
+}
+.q1 {
+    display: inline-block;
+    text-align: right;
+    width: 40%;
+    margin-right: 20px;
+}
+.a1 {
+    display: inline-block;
+    text-align: left;
+    width: 40%;
+}
+.friend {
+    margin:10px 0;
+    display: block;
+    text-align: center;
+}
+.q2 { display: inline-block;
+    text-align: right;
+    width: 40%;
+    margin-right: 20px;
+}
+
+.a2 {
+    display: inline-block;
+    text-align: left;
+    width: 40%;
+}
+.favorite {
+    margin:10px 0;
+    display: block;
+    text-align: center;
+}
+.q3 {
+    display: inline-block;
+    text-align: right;
+    width: 40%;
+    margin-right: 20px;
+}
+.a3 {
+    display: inline-block;
+    text-align: left;
+    width: 40%;
+}
+.improve {
+    margin:10px 0;
+    display: block;
+    text-align: center;
+}
+.q4 {
+    display: inline-block;
+    text-align: right;
+    width: 40%;
+    margin-right: 20px;
+}
+.a4 {
+    display: inline-block;
+    text-align: left;
+    
+    width: 40%;
+}
+.form{
+    margin:10px 0;
+    display: block;
+    text-align: center;
+}
+.q5 {
+    display: inline-block;
+    text-align: right;
+    width: 40%;
+    margin-right: 20px;
+}
+.a5 {
+    display: inline-block;
+    text-align: left;
+    width: 40%;
+}
+.question {
+    width: 270px;
+    height: 60px;
+    color:grey;
+}
+.btn {
+    border: 2px solid blue;
+    color:blue;
+    width: 90px;
+    height: 40px;
+    font-size:20px;
+    margin-top:20px;
+}
+.btn:hover{
+    background-color:blue;
+    color:white;
+}
+@keyframes updown {
+    0% {
+        height: 0;
+    }
+    25% {
+        height: 20px;
+    }
+    50% {
+        height: 5px;
+    }
+    100%{
+        height: 25px;
+    }
+}
+.sns {
+    float:right;
+    margin-bottom: 10px;
+    font-size:20px;
+}
+.fa-twitter {
+    color:rgb(0, 183, 255);
+    margin-bottom: 20px;
+}
+.fa-twitter:hover {
+    animation: updown 2s linear 0s 1;
+}
+.fa-line{
+    color:green;
+}
+.fa-line:hover{
+    animation: updown 2s linear 0s 1;
+}
+.fa-facebook-square{
+    color:rgba(2, 58, 241, 0.973);
+}
+.fa-facebook-square:hover{
+    animation: updown 2s linear 0s 1;
+}
+.fa-youtube{
+    color:red;
+}
+.fa-youtube:hover{
+    animation: updown 2s linear 0s 1;
+}
+@keyframes change1{
+    0% {
+        color: red;
+    }
+    100% {
+        color: yellow;
+    }
+}
+@keyframes change2 {
+    0% {
+        color:yellow;
+    }
+    100% {
+        color:red;
+    }
+}
+.thankyou {
+
+    background-color: white;
+   width: 20%;
+   box-shadow: 0 10px 10px rgba(0,0,0,0.5);
+    position: fixed;
+    right: 20px;
+    top: 20px;
+    z-index: 1;
+}
+.thank {
+    animation: change1 1s linear 0s infinite;
+}
+.you {
+    animation: change2 1s linear 0s infinite;
+}
+.pikto {
+    margin: auto;
+}
+h1 {
+    text-align: center;
+}
